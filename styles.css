@@ -1,0 +1,129 @@
+/* Global Styles */  
+  
+* {  
+  box-sizing: border-box;  
+  margin: 0;  
+  padding: 0;  
+}  
+  
+body {  
+  font-family: Arial, sans-serif;  
+  line-height: 1.6;  
+  color: #333333;  
+  background-color: #f9f9f9;  
+  padding: 20px;  
+}  
+  
+h1, h2, h3, h4, h5, h6 {  
+  font-weight: bold;  
+  color: #3498db;  
+  margin-bottom: 10px;  
+}  
+  
+a {  
+  text-decoration: none;  
+  color: #f1c40f;  
+  transition: color 0.2s ease;  
+}  
+  
+a:hover {  
+  color: #3498db;  
+}  
+  
+/* Header Styles */  
+  
+header {  
+  background-color: #3498db;  
+  padding: 1em;  
+  text-align: center;  
+  border-bottom: 1px solid #ddd;  
+}  
+  
+nav ul {  
+  list-style: none;  
+  margin: 0;  
+  padding: 0;  
+  display: flex;  
+  justify-content: space-between;  
+}  
+  
+nav li {  
+  margin-right: 20px;  
+}  
+  
+nav a {  
+  color: #f9f9f9;  
+}  
+  
+/* Main Styles */  
+  
+main {  
+  display: flex;  
+  flex-direction: column;  
+  align-items: center;  
+  padding: 2em;  
+}  
+  
+section {  
+  background-color: #f9f9f9;  
+  padding: 2em;  
+  margin-bottom: 20px;  
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+  border-radius: 10px;  
+}  
+  
+h1 {  
+  font-size: 24px;  
+  margin-bottom: 10px;  
+}  
+  
+p {  
+  margin-bottom: 20px;  
+}  
+  
+/* Work Section Styles */  
+  
+#work ul {  
+  list-style: none;  
+  margin: 0;  
+  padding: 0;  
+}  
+  
+#work li {  
+  margin-bottom: 20px;  
+}  
+  
+#work h2 {  
+  font-size: 18px;  
+  margin-bottom: 10px;  
+}  
+  
+/* Contact Section Styles */  
+  
+#contact ul {  
+  list-style: none;  
+  margin: 0;  
+  padding: 0;  
+}  
+  
+#contact li {  
+  margin-bottom: 10px;  
+}  
+  
+#contact a {  
+  color: #f1c40f;  
+}  
+  
+/* Footer Styles */  
+  
+footer {  
+  background-color: #3498db;  
+  padding: 1em;  
+  text-align: center;  
+  color: #f9f9f9;  
+  border-top: 1px solid #ddd;  
+}  
+  
+footer p {  
+  margin-bottom: 10px;  
+}
